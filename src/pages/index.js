@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
       </Head>
 
       {/* ---- TO BEGIN, delete this section and GET CODING!!! ---- */}
-      <h1>Hey David </h1>
+
+      {/* header */}
+      <Header />
       {/* ---- ---- */}
     </div>
   );
